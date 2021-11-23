@@ -500,7 +500,6 @@ padding-left: 140px;
   margin: 10px 0 0 0;
   margin-left: auto;
   margin-right: auto;
-  padding: 70px 0 0 0;
 }
 
 
@@ -545,11 +544,9 @@ padding-left: 140px;
 /* footer icon social media */
 
 .social {
-  padding-top: 90px;
   width: 100%;
   top: 50%;
   text-align: left;
-  transform: translateY(-50%);
 }
 
 .social .link {
