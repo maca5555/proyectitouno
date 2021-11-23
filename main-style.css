@@ -1,0 +1,726 @@
+/* Color Theme for Bakery
+{ color: #FFBC45; } yellow
+{ color: #F5F5DC; } cream
+{ color: #FFFFF0; } white
+{ color: #2E1E0A; }marron
+{ color: #D2691E; } orange
+{ color: #BF5934; } salted caramel
+
+/* Color Theme Swatches in RGBA */
+
+
+/* my fonts
+font-family: 'Playfair Display', serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Merriweather', serif;
+font-family: funkydori, san-serif; */
+
+
+/* h1-h6 setting --------------- */
+h1 { font-size: 2em;}
+h2 { font-size: 1.5em;}
+h3 { font-size: 1.17em;}
+h4 { font-size: 1em;}
+h5 { font-size: .83em;}
+h6 { font-size: .75em;}
+h1 { font-size: 24px;}
+h2 { font-size: 22px;}
+h3 { font-size: 18px;}
+h4 { font-size: 16px;}
+h5 { font-size: 12px;}
+h6 { font-size: 10px;}
+/* ------------------ */
+
+/* global setting ================ */
+
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  background-color:#ffffff;
+  color: #555;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: lighter;
+  line-weight: 1.6;
+  /*letter-spacing: .5px;*/
+}
+
+header {
+/*  background-color:#ebebeb;*/
+}
+
+nav {
+/*  background-color:#ebebeb;*/
+}
+
+main {
+
+}
+  h1,h2,h3,h4,h5,h6 {
+  font-family: 'Merriweather', serif;
+  font-weight: 800;
+  color: #BF5934
+
+}
+
+section {
+  background-color: #ffffff ;
+}
+
+article {
+  background-color: #ffffff;
+}
+
+
+/* all sections article margin */
+
+/*Si quieres cambiar el margen*/
+main section{
+  margin: 20px auto;
+}
+
+.inner-wrapper {
+  /*
+  border-style:solid;
+  border-width: 10px;
+  border-color:#77777 */
+  width: 85%;
+  padding-top: 40px;
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+a{
+  text-decoration: none;
+  text-align: center;
+
+}
+#section-one{
+color: #2E1E0A;
+}
+
+/* main navi ==== */
+
+.main-nav {
+  background-color: fffff;
+  text-align: center;
+}
+
+.main-nav ul{
+  background-color: fffff;
+  text-align: center;
+}
+
+.main-nav li{
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  /*border: dashed white;*/
+  display: inline-block;
+  line-height: 40px;
+}
+.main-nav a{
+  color: #2E1E0A;
+  padding: 0 18px;
+
+}
+
+.main-nav a:hover {
+  background-color: fffff;
+  color: orange;
+  opacity: .7;
+  transition: .5s ease-in-out;
+  display: block;
+  text-decoration-line: none;
+}
+
+/* header image ======== */
+
+.header-image {
+  background-color: blue;
+  background-image: url('images/header-bakery.jpg');
+  height:auto;
+  width:auto;
+  background-repeat:no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+/* header text */
+
+.company-name {
+  color: #2E1E0A;
+  font-size:9em;
+  padding-left: 90px;
+  text-align: left;
+  padding-top: 20px;
+  display: block;
+  /*margin-top: 50px;*/
+  /* width: .5 *
+  border: dashed 10px deeppink; */
+
+}
+
+.company-slogan{
+  font-size: 2em;
+  text-align: left;
+  padding-left: 90px;
+  padding-bottom: 20px;
+  padding-top: 10px;
+  display: block;
+  color: #D2691E;
+}
+
+
+/* main section 1 */
+.sec-one-column{
+/*  border: dashed 10px deeppink; */
+  margin-top: 10px;
+  color: #2E1E0A;
+}
+
+.sec-one-column::after{
+  content:"";
+  display:block;
+  clear: both;
+  tex-size:2em;
+}
+
+.column{
+  height:200px;
+  float: left;
+  margin-top: 4px;
+
+}
+
+.left{
+  background-color:fffff;
+  width: 50%;
+}
+
+.left p{
+  padding: 10px 10px 0 0;
+  padding-top: 10px;
+}
+.right{
+  width: 50%;
+  color: pink;
+  text-size: 9px;
+  background-position: center;
+  background-image: url('images/Caracas.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.right h4{
+/*  border: dashed 2px yellow; */
+  color: #2E1E0A;
+  background-color: rgb(255, 204, 153, 0.75);
+  display: block;
+  text-align: center;
+  margin-top: 150px;
+
+}
+
+/* clear floats */
+section::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+
+
+/*main section 2 our team */
+.text-color{
+  color: #2E1E0A;
+
+}
+.team-photos{
+  float:left;
+  width:20%;
+  height: auto;
+  padding:10px;
+
+}
+
+.team-member img{
+width:100%;
+height: auto;
+}
+
+.team-member{
+  margin: 0 auto;
+    border: 3px solid transparent;
+}
+
+.team-member:hover{
+  border: 10px solid ;
+}
+.team-desc{
+  text-align: center;
+  background-color: #ebebeb;
+  color: brown;
+}
+.team-desc h4 {
+  color: aqua;
+}
+
+.team-member:hover{
+  border: 3px solid #BF5934;
+
+}
+
+.team-desc{
+  text-align: center;
+  background-color: #ebebeb;
+  color: brown;
+}
+
+.team-desc h4{
+  color: #D2691E;
+}
+
+/*setion 3 video */
+.video-container{
+  padding-top: 5px;
+  width: 100%;
+  height:315px;
+  overflow: hidden;
+}
+
+.video-container iframe{
+  width: 100%;
+  height:400px;
+  margin: auto;
+
+}
+
+
+
+aside::after{
+  content: "";
+  display: block;
+  clear: both;
+   object-fit: cover;
+}
+
+
+/* will be deleteled ---- */
+#inline li{
+  background-color: pink;
+  border: dashed 5px green;
+  width: 100px;
+  height: 100px;
+  display: inline;
+}
+
+#inline-block li{
+  background-color: pink;
+  border: dashed 5px green;
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+}
+
+#block li{
+  background-color: pink;
+  border: dashed 5px green;
+  width: 100px;
+  height: 100px;
+  display: block;
+}
+
+
+/* portfolio style */
+/*main section 2 our team */
+
+.our-work-gallery{
+  float:left;
+  width:25%;
+  height: auto;
+  padding:10px;
+  padding-top: 10px;
+}
+
+#our-team{
+  margin-top: 50px;
+}
+
+.gallery img{
+  width:100%;
+  height: auto;
+}
+
+.gallery-img{
+  margin: 0 9px 0 9px;
+}
+
+
+.gallery-desc{
+  text-align: center;
+  padding-bottom: 50px;
+  margin-top: 10px;
+  font-size: 18px;
+
+}
+
+
+/* CSS */
+.button-30 {
+  align-items: center;
+  appearance: none;
+  background-color: rgba(239, 164, 66, 0.51);
+  border-radius: 4px;
+  border-width: 0;
+  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #36395A;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "Merriweather",serif;
+  height: 30px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 10px;
+  padding-right: 10px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.button-30:focus {
+  box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+}
+
+.button-30:hover {
+  box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.button-30:active {
+  box-shadow: #D6D6E7 0 3px 7px inset;
+  transform: translateY(2px);
+}
+
+/* buttonn end  */
+
+#title-read-more {
+  text-align: center;
+  font-size: 40px;
+  margin: 20px;
+}
+
+#image-left {
+  width: 20%;
+  margin-left: 10%;
+  float:left;
+  margin-right: 20px;
+}
+
+#image-left img {
+  width: auto;
+  height: 20%;
+  float:left;
+}
+
+img{
+  max-width:100%;
+}
+
+
+.img-desc{
+  text-align: center;
+  padding: 10px;
+  font-size: 18px;
+  color: white;
+  background-color: #BF5934;
+}
+
+#wrapper {
+  overflow: hidden;
+  margin-right: 150px;
+}
+
+#text-right {
+  float: right;
+  text-align: center;
+  display: inline-block;
+  vertical-align: top;
+  width: 40%;
+  border-left: 2px double #cccccc;
+  margin-left: 60px;
+}
+
+/*print*/
+@media print {
+
+  html, body {
+    height:100%;
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow: hidden;
+  }
+  img {
+      -webkit-print-color-adjust: exact;
+  }
+
+}
+
+
+/*footer*/
+
+
+.footer-wrapper{
+background-color: transparent;
+padding-top: 20px;
+padding-left: 140px;
+}
+
+.footer-container{
+  width: 100%;
+  max-width: 1170px;
+  margin: 10px 0 0 0;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 70px 0 0 0;
+}
+
+
+.footer-container::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.icon img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 150px;
+}
+
+.icon img:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+.footer-column{
+  float: left;
+  width: 50%;
+  height: 300px;
+}
+.vl {
+  border-left: 1px solid black;
+  height: 20%;
+  position: absolute;
+  left: 50%;
+  margin-left: -3px;
+}
+.column-left{
+  padding-left: 10px;
+}
+
+
+.column-right{
+  padding-top: 24px;
+
+}
+
+
+/* footer icon social media */
+
+.social {
+  padding-top: 90px;
+  width: 100%;
+  top: 50%;
+  text-align: left;
+  transform: translateY(-50%);
+}
+
+.social .link {
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  border: 2px dashed #555;
+  background-clip: content-box;
+  padding: 10px;
+  transition: .5s;
+  color: white;
+  margin-left: 15px;
+  margin-right: 15px;
+  font-size: 70px;
+}
+
+.social .link span {
+  display: block;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.social .link:hover {
+  color: #ffffff;
+  transform: rotate(360deg);
+}
+
+.social .link.google-plus {
+  background-color: tomato;
+  color: #ffffff;
+}
+
+.social .link.twitter {
+  background-color: #00ACEE;
+  color:#ffffff;
+}
+
+.social .link.facebook {
+  background-color: #3B5998;
+  color:#ffffff;
+}
+
+.fa-twitter:before {
+    content: "\f099";
+}
+
+/*footer navi */
+.footer-navi{
+  width:30%;
+  background-color: transparent;
+  float:left;
+}
+
+.footer-navi a{
+  color:#BF5934;
+  display: block;
+  text-align: left;
+  padding: 2px;
+  border-bottom: 1px solid pink;
+}
+
+
+.footer-navi a:hover{
+  background-color: pink;
+  opacity: .3;
+  transition: 0.3s ease-in-out;
+
+}
+
+form {
+  border: 3px solid #f1f1f1;
+}
+
+
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #e67300;
+  color: white;
+  font-size: 10px;
+  padding: 12px 18px;
+  margin: 6px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+  opacity: 0.8;
+}
+
+/* Extra style for the cancel button (red) */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #ffc34d;
+}
+
+/* Center the avatar image inside this container */
+.imgcontainer {
+  text-align: center;
+  margin: 12px 2px 12px 0;
+}
+
+.form-map {
+  width: 50%;
+  border-right: 1px solid black;
+  padding-right: 15px;
+
+}
+
+.form-container{
+  float:left;
+  margin-right:20px;
+  display: block;
+}
+
+.map-container{
+  float:right;
+  display: block;
+  padding-top: 40px;
+}
+
+/* Avatar image */
+img.avatar {
+  width: 20%;
+}
+
+/* Add padding to containers */
+
+.container {
+  padding: 8px;
+
+}
+
+/* The "Forgot password" text */
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+  .cancelbtn {
+    width: 100%;
+  }
+}
+
+.mapa-yo{
+  padding-top: 22px;
+
+}
